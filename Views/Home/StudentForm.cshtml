@@ -5,5 +5,46 @@
 <h2>Student Information Form</h2>
 
 <form method="post">
-    <!-- Students will complete the form here -->
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Student Number:</label><br>
+  <input type="text" id="stdnum" name="stdnum">
+  <br><label for="EmailAdd">Email Address:</label><br>
+  <input type="text" id="EmailAdd" name="EmailAdd"><br>
+
+
+    <input type="radio" id="html" name="Gender" value="Gender">
+    <label for="html">Male</label><br>
+    <input type="radio" id="html" name="Gender" value="Gender">
+    <label for="html">Female</label><br>
+
+    <label for="year level">Year level</label>
+
+    <select name="Year Level" id="yrlvl">
+        <option value="1st Year">1st Year</option>
+        <option value="2nd Year">2nd Year</option>
+        <option value="3rd Year">3rd Year</option>
+        <option value="4th Year">4th Year</option>
+    </select>
+    <br>
+    <br>
+    <label for="Course">Course</label>
+    <select name="Course" id="crs">
+        <option value="crs">BSCS</option>
+        <option value="crs">BSIT</option>
+        <option value="crs">BSEMC</option>
+    </select>
+
+    <br>
+    <br>
+    <label for="Course"></label>
+    <textarea id="About me" name="About me" rows="5" cols="50">
+                my name is James Mangahas 
+    </textarea>
+    <br>
+    <br>
+    <button type="button">Submit Button</button>
+
+
+    
 </form>
